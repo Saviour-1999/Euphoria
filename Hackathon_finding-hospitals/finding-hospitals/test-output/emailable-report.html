@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>TestNG Report</title>
+    <style type="text/css">
+        table {
+            margin-bottom: 10px;
+            border-collapse: collapse;
+            empty-cells: show
+        }
+
+        th, td {
+            border: 1px solid #009;
+            padding: .25em .5em
+        }
+
+        th {
+            vertical-align: bottom
+        }
+
+        td {
+            vertical-align: top
+        }
+
+        table a {
+            font-weight: bold
+        }
+
+        .stripe td {
+            background-color: #E6EBF9
+        }
+
+        .num {
+            text-align: right
+        }
+
+        .passedodd td {
+            background-color: #3F3
+        }
+
+        .passedeven td {
+            background-color: #0A0
+        }
+
+        .skippedodd td {
+            background-color: #DDD
+        }
+
+        .skippedeven td {
+            background-color: #CCC
+        }
+
+        .failedodd td, .attn {
+            background-color: #F33
+        }
+
+        .failedeven td, .stripe .attn {
+            background-color: #D00
+        }
+
+        .stacktrace {
+            white-space: pre;
+            font-family: monospace
+        }
+
+        .totop {
+            font-size: 85%;
+            text-align: center;
+            border-bottom: 2px solid #000
+        }
+
+        .invisible {
+            display: none
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Test</th>
+        <th># Passed</th>
+        <th># Skipped</th>
+        <th># Failed</th>
+        <th>Time (ms)</th>
+        <th>Included Groups</th>
+        <th>Excluded Groups</th>
+    </tr>
+    <tr>
+        <th colspan="7">All Test Suite</th>
+    </tr>
+    <tr>
+        <td><a href="#t0">Practo-finding-hospitals</a></td>
+        <td class="num">5</td>
+        <td class="num">0</td>
+        <td class="num">0</td>
+        <td class="num">651,882</td>
+        <td>regression, smoke</td>
+        <td></td>
+    </tr>
+</table>
+<table id='summary'>
+    <thead>
+    <tr>
+        <th>Class</th>
+        <th>Method</th>
+        <th>Start</th>
+        <th>Time (ms)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th colspan="4">All Test Suite</th>
+    </tr>
+    </tbody>
+    <tbody id="t0">
+    <tr>
+        <th colspan="4">Practo-finding-hospitals &#8212; passed</th>
+    </tr>
+    <tr class="passedeven">
+        <td rowspan="5">com.cognizant.hackathon.tests.PractoTest</td>
+        <td><a href="#m0">hospitalFindTest</a></td>
+        <td rowspan="1">1627113379543</td>
+        <td rowspan="1">453295</td>
+    </tr>
+    <tr class="passedeven">
+        <td><a href="#m1">invalidCheckModule</a></td>
+        <td rowspan="3">1627113931223</td>
+        <td rowspan="3">35000</td>
+    </tr>
+    <tr class="passedeven">
+        <td><a href="#m2">invalidCheckModule</a></td>
+    </tr>
+    <tr class="passedeven">
+        <td><a href="#m3">invalidCheckModule</a></td>
+    </tr>
+    <tr class="passedeven">
+        <td><a href="#m4">topCitiesNameTest</a></td>
+        <td rowspan="1">1627113859692</td>
+        <td rowspan="1">6327</td>
+    </tr>
+    </tbody>
+</table>
+<h2>Practo-finding-hospitals</h2>
+<h3 id="m0">com.cognizant.hackathon.tests.PractoTest#hospitalFindTest</h3>
+<table class="result">
+    <tr class="param">
+        <th>Parameter #1</th>
+        <th>Parameter #2</th>
+        <th>Parameter #3</th>
+    </tr>
+    <tr class="param stripe">
+        <td>Bangalore</td>
+        <td>Hospital</td>
+        <td>3.5+</td>
+    </tr>
+</table>
+<h3>
+    <center>Hospital Search (Screenshot) <br/>
+        <img src="../../finding-hospitals/src/test/resources/screenshots/Hospital-Search.png"
+             title="Hospital Search" style="width:75%;height:75%"/>
+    </center>
+</h3>
+<p class="totop">
+    <a href="#summary">back to summary</a>
+</p>
+<h3 id="m1">com.cognizant.hackathon.tests.PractoTest#invalidCheckModule</h3>
+<table class="result">
+    <tr class="param">
+        <th>Parameter #1</th>
+        <th>Parameter #2</th>
+        <th>Parameter #3</th>
+        <th>Parameter #4</th>
+        <th>Parameter #5</th>
+    </tr>
+    <tr class="param stripe">
+        <td></td>
+        <td>Abc Pvt. Ltd.</td>
+        <td>apple@gmail.con</td>
+        <td>2374652864h</td>
+        <td>1001-5000</td>
+    </tr>
+</table>
+<h3>
+    <center>Corporate Wellness Form: Invalid Name(Screenshot)<br/>
+        <img src="../../finding-hospitals/src/test/resources/screenshots/Form-Fillup2.png"
+             title="Invalid Name" style="width:75%;height:75%"/>
+    </center>
+</h3>
+<p class="totop">
+    <a href="#summary">back to summary</a>
+</p>
+<h3 id="m2">com.cognizant.hackathon.tests.PractoTest#invalidCheckModule</h3>
+<table class="result">
+    <tr class="param">
+        <th>Parameter #1</th>
+        <th>Parameter #2</th>
+        <th>Parameter #3</th>
+        <th>Parameter #4</th>
+        <th>Parameter #5</th>
+    </tr>
+    <tr class="param stripe">
+        <td>John Smith</td>
+        <td>Abc Pvt. Ltd.</td>
+        <td>hevfckqhcbqbc397</td>
+        <td>2374652864h</td>
+        <td>1001-5000</td>
+    </tr>
+</table>
+<h3>
+    <center>Corporate Wellness Form: Invalid Email(Screenshot)<br></br>
+        <img src="../../finding-hospitals/src/test/resources/screenshots/Form-Fillup1.png"
+             title="Invalid Email" style="width:75%;height:75%"/>
+    </center>
+</h3>
+<p class="totop">
+    <a href="#summary">back to summary</a>
+</p>
+<h3 id="m3">com.cognizant.hackathon.tests.PractoTest#invalidCheckModule</h3>
+<table class="result">
+    <tr class="param">
+        <th>Parameter #1</th>
+        <th>Parameter #2</th>
+        <th>Parameter #3</th>
+        <th>Parameter #4</th>
+        <th>Parameter #5</th>
+    </tr>
+    <tr class="param stripe">
+        <td>John Smith</td>
+        <td>Abc Pvt. Ltd.</td>
+        <td>hevfckqhcbqbc397</td>
+        <td></td>
+        <td>1001-5000</td>
+    </tr>
+</table>
+<h3>
+    <center>Corporate Wellness Form: Invalid Contact Number(Screenshot)<br/>
+        <img src="../../finding-hospitals/src/test/resources/screenshots/Form-Fillup3.png"
+             title="Invalid Contact Number" style="width:75%;height:75%"/>
+    </center>
+</h3>
+<p class="totop">
+    <a href="#summary">back to summary</a>
+</p>
+<h3 id="m4">com.cognizant.hackathon.tests.PractoTest#topCitiesNameTest</h3>
+<table class="result">
+    <tr>
+        <th class="invisible"/>
+    </tr>
+</table>
+<h3>
+    <center>Top Cities(Screenshot)<br/>
+        <img src="../../finding-hospitals/src/test/resources/screenshots/Top-Cities.png"
+             title="Top Cities" style="width:75%;height:75%"/>
+    </center>
+</h3>
+<p class="totop">
+    <a href="#summary">back to summary</a>
+</p>
+</body>
+</html>
